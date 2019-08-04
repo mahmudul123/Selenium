@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="fireFox test(failed)">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="TestScript.skipEnabledDisabled">
+        <methods>
+          <include name="skipTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestScript.skipEnabledDisabled -->
+    </classes>
+  </test> <!-- fireFox test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

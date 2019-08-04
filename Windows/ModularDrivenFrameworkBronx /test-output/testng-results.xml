@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-29T00:18:47Z" name="Suite" finished-at="2019-07-29T00:18:47Z" duration-ms="197">
+    <groups>
+    </groups>
+    <test started-at="2019-07-29T00:18:47Z" name="chrome test" finished-at="2019-07-29T00:18:47Z" duration-ms="85">
+      <class name="TestScript.prioritizeTests">
+        <test-method signature="anoPriorityTest()[pri:0, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="anoPriorityTest" finished-at="2019-07-29T00:18:47Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anoPriorityTest -->
+        <test-method signature="bnoPriorityTest3()[pri:0, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="bnoPriorityTest3" finished-at="2019-07-29T00:18:47Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bnoPriorityTest3 -->
+        <test-method signature="priority1Test()[pri:0, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="priority1Test" finished-at="2019-07-29T00:18:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priority1Test -->
+        <test-method signature="priority2Test()[pri:1, instance:TestScript.prioritizeTests@3857f613]" started-at="2019-07-29T00:18:47Z" name="priority2Test" finished-at="2019-07-29T00:18:47Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priority2Test -->
+      </class> <!-- TestScript.prioritizeTests -->
+    </test> <!-- chrome test -->
+    <test started-at="2019-07-29T00:18:47Z" name="fireFox test" finished-at="2019-07-29T00:18:47Z" duration-ms="3">
+    </test> <!-- fireFox test -->
+  </suite> <!-- Suite -->
+</testng-results>
