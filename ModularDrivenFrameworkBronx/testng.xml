@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- ================== CHROME TEST =============== -->
+	<test name="chrome test">
+		<parameter name="browser" value="Ch"></parameter>
+
+		<classes>
+			<class name="TestScript.fillSignupInfoFB">
+			<methods>
+				<include name="test1" />
+				<exclude name="test2" />
+			</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- ==================FIREFOX TEST =============== -->
+
+	<test name="fireFox test">
+		<parameter name="browser" value="ff"></parameter>
+
+		<classes>
+			<class name="TestScript.skipEnabledDisabled">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
